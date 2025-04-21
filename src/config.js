@@ -1,6 +1,6 @@
 import {config} from "dotenv"
 
-condig();
+config();
 
 export default {
     host : process.env.HOST,
