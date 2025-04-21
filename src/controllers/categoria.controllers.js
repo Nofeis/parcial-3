@@ -76,5 +76,5 @@ export const methodHTTP = {
     postCategorias,
     getCategory,
     deleteCategory,
-    updateCategorias
+    updateCategorias,
 }
