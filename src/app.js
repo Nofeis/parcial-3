@@ -16,5 +16,9 @@ app.use(express.json());
 app.use(cors());
 app.use("/api/categorias", categoriasRoutes);
 
+app.get('/', (req, res) => {
+    res.send('rest api en render without database endpoints')
+})
+
 // Hacemos disponible a mi server app para toda la aplicacion
 export default app;
